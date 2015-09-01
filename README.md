@@ -13,11 +13,11 @@ yt-cdownloader it's a very simple BASH script that helps to download audio (mayb
 
 ###What you need
 
-Most of the work is done by another script, youtube-dl by rg3: https://github.com/rg3/youtube-dl, so you'll have to download it in order for this script to work. This is done very easely (at least in debian-esque distributions) by downloading it via command-line:
+Most of the work is done by another script, [youtube-dl by rg3](https://github.com/rg3/youtube-dl), so you'll have to download it in order for this script to work. This is done very easely (at least in debian-esque distributions) by downloading it via command-line:
 
-***
-$ apt-get install youtube-dl
-***
+
+`$ apt-get install youtube-dl`
+
 
 ###What you can do
 
@@ -25,23 +25,18 @@ For now, it only accepts one parameter, wich should be the name of the text file
 
 
 If you use it like a script
-***
-$ ./yt-cdownloader.sh dl-list-file
 
-//or
-
-$ ./yt-cdownloader.sh /path/to/dl-list-file
-*** 
+`$ ./yt-cdownloader.sh dl-list-file`
+or
+`$ ./yt-cdownloader.sh /path/to/dl-list-file`
 
 
 If you install it as a custom CLI command
-***
-$ yt-cdownloader dl-list-file
 
-//or
-
-$ yt-cdownloader /path/to/dl-list-file
-***
+`$ yt-cdownloader dl-list-file`
+or
+`$ yt-cdownloader /path/to/dl-list-file`
 
 
-Note that for now it doesn't let you choose nor specify jackshit of what its proposed up in the description, sorry about that, will get there eventually. Maybe.
+
+Note that for now it **does NOT** let you choose nor specify **jackshit** of what its proposed up in the description, sorry about that, will get there eventually. *Maybe*.
